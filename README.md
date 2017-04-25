@@ -37,5 +37,5 @@ This version of Cloudmonkey may not work with other cloud computing providers th
 
 (The reason is that this version adds a new parameter input 'region=...' to every API call. API servers generally ignore any parameters that are not recognised, however if the server is programmed to do validity checking then Cloudmonkey may not work.)
 
-An alternative is to use [Python's virtualenv](http://www.pythoncentral.io/how-to-install-virtualenv-python) tool so that you can operate multiple versions of Cloudmonkey at the same time.
+An alternative is to use [virtualenv for Python](https://virtualenv.pypa.io/en/stable/) so that you can operate multiple versions of Cloudmonkey at the same time.
 
